@@ -30,6 +30,14 @@ extern NSString* const GDTNativeAdDataKeyAppPrice;
  *          6. GDTNativeAdDataKeyAppPrice   应用类广告的价格
  */
 @property (nonatomic, retain, readonly) NSDictionary *properties;
+/*
+ *  判断两个原生广告数据对象是否相等
+ */
+-(BOOL) equalsAdData:(GDTNativeAdData *)data;
+/*
+ *  获取该原生广告是否为应用类广告
+ */
+-(BOOL) isAppAd;
 
 @end
 
