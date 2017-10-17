@@ -37,7 +37,7 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "GDT/*.h"
+  s.source_files  = "GDT/*.{h,m}"
   s.vendored_libraries = "GDT/libGDTMobSDK.a"
 
   s.frameworks  = "AdSupport", "CoreLocation", "QuartzCore", "SystemConfiguration", "CoreTelephony", "Security", "StoreKit"
